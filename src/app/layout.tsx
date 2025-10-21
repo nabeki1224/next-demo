@@ -10,8 +10,8 @@ import getCurrentUser from '@/app/actions/getCurrentUser'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Prisma Auth',
-  description: 'Prisma Auth',
+  title: 'Prisma Blog',
+  description: 'Prisma Blog',
 }
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
